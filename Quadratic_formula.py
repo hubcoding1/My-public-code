@@ -16,7 +16,7 @@ while True:
             B = float(B)
             C = float(C)
         except ValueError:
-            print('inavlid input')
+            print('invalid input')
             continue
         Discr = (B**2) - (4*A*C)
         if Discr == 0:
@@ -35,7 +35,7 @@ while True:
             B = float(B)
             C = float(C)
         except ValueError:
-            print('inavlid input')
+            print('invalid input')
             continue
         Discr = (B**2) - (4*A*C)
         if Discr < 0:
@@ -57,7 +57,7 @@ while True:
             B = float(B)
             C = float(C)
         except ValueError:
-            print('inavlid input')
+            print('invalid input')
             continue
         Discr = (B**2) - (4*A*C)
         if Discr < 0:
@@ -77,7 +77,7 @@ while True:
             A = float(A)
             B = float(B)
         except ValueError:
-            print('inavlid input')
+            print('invalid input')
             continue
         x_top = (-B)/(2*A)
         print('x-top =', x_top)
@@ -91,7 +91,7 @@ while True:
             B = float(B)
             C = float(C)
         except ValueError:
-            print('inavlid input')
+            print('invalid input')
             continue
         (x_top) = (-B)/(2*A)
         y_top = A*x_top**2 + B*x_top + C
@@ -99,7 +99,7 @@ while True:
     #porgram quit
     elif I1 == "Q":
         print('The program stopped')
-        sleep(1,4)
+        sleep(1.4)
         break
     #typo's
     else:
