@@ -13,8 +13,7 @@ def board():
    for k in board:
        for j in k:
          print(j, end = "  ")
-       print()    
-system('cls')
+       print()
 while True:
   system('cls')
   print('W [',W,'], G [',G,'], V [',V,']')
@@ -120,9 +119,9 @@ while True:
   elif S == 2:
     V += 1
     continue
+  system('cls')
   print('W [',W,'], G [',G,'], V [',V,']')
   print('')
-  system('cls')
   board()
   #2e zet van speler
   while True:
@@ -197,9 +196,9 @@ while True:
   elif S == 2:
     V += 1
     continue
+  system('cls')
   print('W [',W,'], G [',G,'], V [',V,']')
   print('')
-  system('cls')
   board()
   #3e zet van speler
   while True:
@@ -274,9 +273,9 @@ while True:
   elif S == 2:
     V += 1
     continue
+  system('cls')
   print('W [',W,'], G [',G,'], V [',V,']')
   print('')
-  system('cls')
   board()
   #4e zet speler
   while True:
@@ -351,9 +350,9 @@ while True:
   elif S == 2:
     V += 1
     continue
+  system('cls')
   print('W [',W,'], G [',G,'], V [',V,']')
   print('')
-  system('cls')
   board()
   #5e player move
   while True:
